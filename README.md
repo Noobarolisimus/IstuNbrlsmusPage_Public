@@ -35,8 +35,8 @@ python3 -m http.server
 Смотреть тут [на русском](https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) или тут [на английском](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).
 
 #### Кратко:
-1. На странице Репозитория делаем <i>fork</i>
-    ![fork](https://github.com/Noobarolisimus/IstuNbrlsmusPage_Public/blob/master/custom/gh_imgs/fork.png?raw=true)
+1. На странице Репозитория делаем <i>fork</i> </br>
+    ![fork](https://github.com/Noobarolisimus/IstuNbrlsmusPage_Public/blob/master/gh_imgs/fork.png?raw=true)
 2. Вносим изменения в свой репозиторий
 3. На странице своего репозитория делаем <i>pull request</i>
 4. Ждём ответа либо от робота, либо от меня
