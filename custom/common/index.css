@@ -4,10 +4,12 @@
         box-sizing: border-box;
     }
 /*DVATI*/
-    body {
+    body {  
+        display: flex;
+        flex-direction: row;
+    }
+    .DvatiBlock{
         display: grid;
-        width: 100%;
-        height: 100vh;
         place-items: center;
         grid-template-rows: 600px 70px;
         gap:50px;
@@ -93,6 +95,7 @@
         z-index: 9;
         border-radius: 50%;
     }
+
     .digital_clock_box
     {
         height: 85px;
