@@ -1,0 +1,110 @@
+ *, *::after, *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/*DVATI*/
+    body {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        place-items: center;
+        grid-template-rows: 600px 70px;
+        gap:50px;
+    }
+    .clock {
+        margin-top: 200px;
+        position: relative;
+        width: 400px;
+        height: 400px;
+        box-shadow: 0px 0px 10px #00000050;
+        border-radius: 50%;
+    }
+    .dot_line {
+        position: absolute;
+        width: 360px;
+        display: flex;
+        justify-content: space-between;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+    .second_arrow_box, .minute_arrow_box, .hour_arrow_box  {
+        position: absolute;
+        width: 360px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+    .second_arrow {
+        height: 5px;
+        background: red;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    .minute_arrow {
+        height: 10px;
+        background: #999;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        margin-left: 40px;
+    }
+    .hour_arrow {
+        height: 15px;
+        background: #333;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        margin-left: 80px;
+    }
+    .dot {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #222;
+    }
+    #d1 {
+        transform: translate(-50%, -50%) rotate(-90deg);
+    }
+    #d2 {
+        transform: translate(-50%, -50%) rotate(-60deg);
+    }
+    #d3 {
+        transform: translate(-50%, -50%) rotate(-30deg);
+    }
+    #d4 {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    #d5 {
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+    #d6 {
+        transform: translate(-50%, -50%) rotate(60deg);
+    }
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25px;
+        height: 25px;
+        background: #222;
+        z-index: 9;
+        border-radius: 50%;
+    }
+    .digital_clock_box
+    {
+        height: 85px;
+        width: 230px;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        line-height: 60px;
+        font-family: "Roboto", sans-serif;
+        font-size: 50px;
+        z-index: -1;
+        box-shadow: 0px 0px 10px #00000050;
+    }
+/*-DVATI*/
